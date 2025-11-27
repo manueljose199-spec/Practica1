@@ -1,40 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <header>
-  <h1>Mi Primer pagina web </h1>
-  <nav>
-    <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#articulos">Artículos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-    </ul>
-  </nav>
-</header>
+      <h1>Mi Primer pagina web</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#articulos">Artículos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<main id="inicio">
+    <main id="inicio">
+      <section id="articulos">
+        <article>
+          <h2>Articulos</h2>
+          <p>Este es el contenido de mi primer articulo.</p>
+        </article>
+        <br />
+        <article>
+          <p>Este es el contenido de mi segundo articulo</p>
+        </article>
+      </section>
 
-  <section id="articulos">
-    <article>
-      <h2>Articulos</h2>
-      <p>Este es el contenido de mi primer articulo.</p>
-    </article>
-    <br>
-    <article>
-        <h2>Este es el contenido de mi segundo articulo</h2>
-    </article>
-  </section>
-</main>
+      <section id="Contacto">
+        <h2>Contacto</h2>
 
-<footer>
-  <small>© 2025 Mi Sitio</small>
-</footer>
+        <form action="">
+          <label for="nombre">nombre</label>
+          <input
+            type="text"
+            id="nombre"
+            placeholder="ingresa tu nombr"
+            required
+          />
 
-</body>
+          <label for="correo">correo electronico</label>
+          <input
+            type="text"
+            id="correo"
+            placeholder="ingresa tu correo electronico"
+            required
+          />
+
+          <label for="mensaje">mensaje</label>
+          <input
+            type="text"
+            id="mensaje"
+            placeholder="indica como podemos ayudarte"
+          />
+
+          <button type="submit">enviar</button>
+        </form>
+        <br>
+      </section>
+    </main>
+
+    <footer>
+      <small>© 2025 Mi Sitio</small>
+    </footer>
+  </body>
 </html>
