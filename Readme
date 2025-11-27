@@ -1,0 +1,11 @@
+primer practica interactiva con github
+
+recordatorios rapidos 
+
+# HTML — Recordatorios rápidos
+- Doctype y `lang` siempre.
+- Usa semántica: `header/nav/main/section/article/footer`.
+- `alt` en imágenes.
+- Formularios: `label` + validaciones (`required`, `type`, `min/max`).
+- `div` = bloque; `span` = en línea.
+- Sangría/orden para legibilidad.
